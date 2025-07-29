@@ -1,13 +1,33 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Configuration files
-
-
-# Environment directories
+# Environments & Virtual Environments
 .env
 .venv
-venv/
 env/
+venv/
+ENV/
+rule/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# SQLite Database
+*.db
+*.db-journal
+
+# Log Files
+*.log
+
+# macOS System Files
+.DS_Store
+
+# --- Project Specific Ignores ---
+
+# Sensitive Configuration - DO NOT COMMIT
+
+# Local Utility & Test Scripts
+test_reddit_login.py
+view_data.py
+reset_database.py

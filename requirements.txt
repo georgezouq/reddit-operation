@@ -1,2 +1,7 @@
 praw
 configparser
+langchain
+langchain-community
+langchain-core
+langchain-openai
+psycopg2-binary
